@@ -5,8 +5,6 @@ Only use this collection of scripts with a "Mini-CD" of Ubuntu 20.04, which is a
 ## Git-clone this project, and run the following files in terminal (e.g.: ./init-cleanup.sh) and in the correct order:
 
 1. /setup/init-cleanup.sh
-2. /setup/install-desktop.sh
-3. /setup/update.sh
 
 ## Versioning declaration & Usage:
 
