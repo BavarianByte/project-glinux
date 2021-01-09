@@ -1,19 +1,15 @@
 This is the repository that houses all necessary files to install and set up the Linux distribution "GLinux".
 
-Please run the following files in the correct order:
+Only use this collection of scripts with a "Mini-CD" of Ubuntu 20.04, which is available @ http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot/mini.iso
 
-# TODO!!!
+## Git-clone this project, and run the following files in terminal (e.g.: ./init-cleanup.sh) and in the correct order:
 
 1. /setup/init-cleanup.sh
-2. /setup/
+2. /setup/install-desktop.sh
+3. /setup/update.sh
+4. /
 
-
-
-
-
-
-
-Versioning declaration & Usage:
+## Versioning declaration & Usage:
 
 The versioning of this repo ties directly into the version number of the Linux Distro. So, for example: Scripts (v. 0.21.5) are installed & executed on OS (v. 0.21.5)
 
@@ -21,7 +17,7 @@ Versioning Scheme:                 x.xx.xx
 
                         Main Version.Year.Small Update
 
-- Main Version: Once this is out of heavy development, this number will once reach 1.
+- Main Version: Once this is out of heavy development and stable, this number will once reach 1.
 - Year: The last two digits of the current year.
 - Small update: (Could) go up infinite, and marks smaller, but significant changes.
 

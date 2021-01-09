@@ -8,6 +8,7 @@
 #----------------------------------------------------------------
 
 # Cleanup-Phase 1
+
 sudo apt remove firefox libreoffice-common  -y
 
 echo "-"

@@ -6,7 +6,7 @@
 # Copyright Raphipod (C) 2021 - Project GLinux
 #----------------------------------------------------------------
 
-# enable 32-bit libraries
+# enable 32-bit libraries (needed for Steam and 32-bit drivers.)
 
 sudo dpkg -add-architecture i386
 
@@ -24,9 +24,6 @@ sudo apt-get install chromium-browser -y
 
 echo "Installed: Chromium"
 
-sudo apt-get install wine -y
-
-echo "Installed: Wine compatibility layer"
 
 
 
