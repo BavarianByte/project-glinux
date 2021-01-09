@@ -21,7 +21,7 @@ Versioning Scheme:                 x.xx.xx
 
                         Main Version.Year.Small Update
 
-Main Version: Once this is out of heavy development, this number will once reach 1.
-Year: The last two digits of the current year.
-Small update: (Could) go up infinite, and marks smaller, but significant changes.
+- Main Version: Once this is out of heavy development, this number will once reach 1.
+- Year: The last two digits of the current year.
+- Small update: (Could) go up infinite, and marks smaller, but significant changes.
 
