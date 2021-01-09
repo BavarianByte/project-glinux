@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #----------------------------------------------------------------
-# This script installs the custom kernel (Xanmod).
+# This script installs the custom Xanmod-Kernel.
 #
 # Copyright Raphipod (C) 2021 - Project GLinux
 #----------------------------------------------------------------
