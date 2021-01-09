@@ -16,7 +16,7 @@ sudo apt update
 
 # install small programs
 
-sudo apt-get install tee
+sudo apt-get install tee -y
 
 # install programs
 
@@ -24,7 +24,11 @@ sudo apt-get install chromium-browser -y
 
 echo "Installed: Chromium"
 
-sudo apt-get install 
+sudo apt-get install wine -y
+
+echo "Installed: Wine compatibility layer"
+
+
 
 
 
