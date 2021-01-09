@@ -1,4 +1,4 @@
-This is the repository that houses all necessary scripts to install and set up the Linux distribution "GLinux".
+This is the repository that houses all necessary scripts to install and set up the Linux distribution "GLinux" - a Gaming-focused Linux distribution based on Ubuntu.
 
 Only use this collection of scripts with a "Mini-CD" of Ubuntu 20.04, which is available @ http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot/mini.iso
 
