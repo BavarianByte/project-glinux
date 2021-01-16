@@ -15,7 +15,7 @@ After rebooting, you should see the normal Ubuntu Desktop. Continue with executi
 4. /install/drivers.sh
 5. /install/custom-kernel.sh
 
-**Execute the right scripts for the right edition. If you start a script, that is meant for "Broadcaster", you will install "unnecessary" programs, which adds to the finished ISO-file size**
+**Disclaimer: Execute the right scripts for the right edition. If you start a script, that is meant for "Broadcaster", you will install "unnecessary" programs, which adds to the finished ISO-file size**
 
 ## Versioning declaration & Usage:
 
