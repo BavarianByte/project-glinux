@@ -15,3 +15,9 @@ echo "Everything is updated. Proceeding with installing the DE."
 # install Desktop Environment
 
 sudo tasksel install ubuntu-desktop-minimal
+
+echo "Desktop is installed. Proceeding with reboot"
+
+reboot
+
+exit 0
