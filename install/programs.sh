@@ -16,7 +16,7 @@ sudo apt update
 
 # install small programs
 
-sudo apt-get install tee -y
+sudo apt-get install gnome-session gnome-terminal tasksel -y
 
 # install programs
 

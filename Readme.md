@@ -4,7 +4,11 @@ Only use this collection of scripts with a "Mini-CD" of Ubuntu 20.04, which is a
 
 ## Git-clone this project, and run the following files in terminal (e.g.: ./init-cleanup.sh) and in the correct order:
 
-1. /setup/init-cleanup.sh
+1. /setup/update.sh
+2. /install/programs.sh
+3. /install/install-desktop.sh
+4. /install/drivers.sh
+5. /install/custom-kernel.sh
 
 ## Versioning declaration & Usage:
 
