@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #----------------------------------------------------------------
-# This script installs necessary files.
+# This script installs necessary files for GLinux-Broadcaster.
 #
 # Copyright Raphipod (C) 2021 - Project GLinux
 #----------------------------------------------------------------
@@ -18,18 +18,29 @@ sudo apt update
 
 sudo apt-get install gnome-session gnome-terminal tasksel -y
 
-# install programs
+# install programs used in GLinux
 
 sudo apt-get install chromium-browser -y
 
 echo "Installed: Chromium"
 
+sudo apt-get install kdenlive
 
+echo "Installed: Kdenlive"
 
+sudo apt install obs-studio
 
+echo "Installed: OBS-Studio"
 
+sudo apt install steam-installer
 
+echo "Installed: Steam-Installer; WARNING: This is just the installer, Steam isn't really installed yet."
 
+sudo add-apt-repository ppa:lutris-team/lutris
+sudo apt update
+sudo apt install lutris
+
+echo "Installed: Lutris"
 
 
 
