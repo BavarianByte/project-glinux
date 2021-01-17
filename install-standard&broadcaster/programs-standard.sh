@@ -8,7 +8,7 @@
 
 # enable 32-bit libraries (needed for Steam and 32-bit drivers.)
 
-sudo dpkg -add-architecture i386
+sudo dpkg --add-architecture i386
 
 # make sure all pre-installed programs are up-to-date
 
