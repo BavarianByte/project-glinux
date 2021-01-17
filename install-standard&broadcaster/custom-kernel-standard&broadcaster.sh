@@ -12,6 +12,6 @@ echo 'deb http://deb.xanmod.org releases main' | sudo tee /etc/apt/sources.list.
 
 sudo apt update && sudo apt install linux-xanmod -y
 
-echo "Installing custom kernel..."
+echo -e "\nInstalling custom kernel..."
 
 exit 0

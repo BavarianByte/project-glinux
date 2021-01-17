@@ -22,25 +22,29 @@ sudo apt-get install gnome-session gnome-terminal tasksel -y
 
 sudo apt-get install chromium-browser -y
 
-echo "Installed: Chromium"
+echo -e "\nInstalled: Chromium"
+
+# Only in Broadcaster ---------------
 
 sudo apt-get install kdenlive
 
-echo "Installed: Kdenlive"
+echo -e "\nInstalled: Kdenlive"
 
 sudo apt install obs-studio
 
-echo "Installed: OBS-Studio"
+echo -e "\nInstalled: OBS-Studio"
+
+# -----------------------------------
 
 sudo apt install steam-installer
 
-echo "Installed: Steam-Installer; WARNING: This is just the installer, Steam isn't really installed yet."
+echo -e "\nInstalled: Steam-Installer; WARNING: This is just the installer, Steam isn't really installed yet."
 
 sudo add-apt-repository ppa:lutris-team/lutris
 sudo apt update
 sudo apt install lutris
 
-echo "Installed: Lutris"
+echo -e "\nInstalled: Lutris"
 
 
 

@@ -10,12 +10,12 @@
 
 sudo apt-get update
 
-echo "Updated packages."
+echo -e "\nUpdated packages."
 
 # Upgrade the installed packages
 
 sudo apt-get upgrade
 
-echo "Upgraded packages."
+echo -e "\nUpgraded packages."
 
 exit 0

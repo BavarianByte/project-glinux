@@ -22,17 +22,17 @@ sudo apt-get install gnome-session gnome-terminal tasksel -y
 
 sudo apt-get install chromium-browser -y
 
-echo "Installed: Chromium"
+echo -e "\nInstalled: Chromium"
 
 sudo apt install steam-installer
 
-echo "Installed: Steam-Installer; WARNING: This is just the installer, Steam isn't really installed yet."
+echo -e "\nInstalled: Steam-Installer; WARNING: This is just the installer, Steam isn't really installed yet."
 
 sudo add-apt-repository ppa:lutris-team/lutris
 sudo apt update
 sudo apt install lutris
 
-echo "Installed: Lutris"
+echo -e "\nInstalled: Lutris"
 
 exit 0
 
