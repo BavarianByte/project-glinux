@@ -1,6 +1,6 @@
 This is the repository that houses all necessary scripts to install and set up the Linux distribution "GLinux" - a Gaming-focused Linux distribution based on Ubuntu.
 
-Only use this collection of scripts with a "Mini-CD" of Ubuntu 20.04, which is available @ http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot/mini.iso
+Only use this collection of scripts with Ubuntu 20, because the scripts use snapd & apt-get (and assume that snapd is pre-installed)
 
  **Before cloning, make sure Git is installed, because it isn't on the Mini-CD!**
 
@@ -28,4 +28,3 @@ Versioning Scheme:                                     x.xx.xx
 - Main Version: Once this is out of heavy development and stable, this number will once reach 1.
 - Year: The last two digits of the current year.
 - Small update: (Could) go up infinite, and marks smaller, but significant changes.
-
