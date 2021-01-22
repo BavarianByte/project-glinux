@@ -10,8 +10,9 @@ Only use this collection of scripts with **Ubuntu Server 20**, because the scrip
 
 After rebooting, you should see the normal Ubuntu Desktop. Continue with executing the remaining scripts with Nautilus/CLI:
 
-4. /install/drivers.sh
-5. /install/custom-kernel.sh
+4. /install/post-desktop.sh
+5. /install/drivers.sh
+6. /install/custom-kernel.sh
 
 **Disclaimer: Execute the right scripts for the right edition. If you start a script, that is meant for "Broadcaster", you will install "unnecessary" programs, which adds to the finished ISO-file size**
 
