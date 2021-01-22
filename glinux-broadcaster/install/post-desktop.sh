@@ -12,3 +12,5 @@ sudo apt remove byobu -y
 
 sudo apt autoremove -y
 sudo apt clean
+
+exit 0
