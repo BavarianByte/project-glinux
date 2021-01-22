@@ -18,6 +18,12 @@ sudo apt update
 
 sudo apt-get install gnome-session gnome-terminal tasksel -y
 
+sudo apt-get install snapd -y
+
+# install programs necessary for glinux-maker
+
+sudo apt install squashfs-tools && genisoimage -y
+
 # install programs used in GLinux-Broadcaster
 
 sudo apt-get install chromium-browser -y
@@ -43,4 +49,3 @@ sudo apt install lutris
 echo -e "\nInstalled: Lutris"
 
 exit 0
-

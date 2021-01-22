@@ -1,10 +1,8 @@
 This is the repository that houses all necessary scripts to install and set up the Linux distribution "GLinux" - a Gaming-focused Linux distribution based on Ubuntu.
 
-Only use this collection of scripts with Ubuntu 20, because the scripts use snapd & apt-get (and assume that snapd is pre-installed)
+Only use this collection of scripts with **Ubuntu Server 20**, because the scripts use snapd & apt-get (snapd will be installed in programs.sh)
 
- **Before cloning, make sure Git is installed, because it isn't on the Mini-CD!**
-
-## Git-clone this project, and run the following files in terminal (e.g.: ./init-cleanup.sh) and in the correct order:
+## Git-clone this project, and run the following files in terminal (e.g.: ./init-cleanup.sh) and in the correct order & don't forget to make the scripts executable with "chmod -x":
 
 1. /setup/update.sh
 2. /install/programs.sh
