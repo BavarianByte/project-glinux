@@ -1,8 +1,10 @@
 This is the repository that houses all necessary scripts to install and set up the Linux distribution "GLinux" - a Gaming-focused Linux distribution based on Ubuntu.
 
-Only use this collection of scripts with **Ubuntu Server 20**, because the scripts use snapd & apt-get (snapd will be installed in programs.sh)
+Only use this collection of scripts with **Debian Testing netinstall** (https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/), because the scripts use snapd & apt-get (snapd will be installed in programs.sh)
 
-## Git-clone this project, and run the following files in terminal (e.g.: ./init-cleanup.sh) and in the correct order & don't forget to make the scripts executable with "chmod -x":
+Make the scripts executable by "cd"-ing into the directory containing the scripts, make yourself root with "sudo sh". To make all scripts executable, type: "sudo chmod 755 *.sh". And now, execute them by issuing "bash script-name.sh"
+
+## Git-clone this project, and run the following files in terminal (e.g.: ./init-cleanup.sh) and in the correct order & don't forget to make the scripts executable:
 
 1. /setup/update.sh
 2. /install/programs.sh
@@ -20,9 +22,9 @@ After rebooting, you should see the normal Ubuntu Desktop. Continue with executi
 
 The versioning of this repo ties directly into the version number of the Linux Distro. So, for example: Scripts (v. 0.21.5) are installed & executed on OS (v. 0.21.5)
 
-Versioning Scheme:                                     x.xx.xx
+Versioning Scheme:                                x.xx.xx
 
-                                            Main Version.Year.Small Update
+                                        Main Version.Year.Small Update
 
 - Main Version: Once this is out of heavy development and stable, this number will once reach 1.
 - Year: The last two digits of the current year.
