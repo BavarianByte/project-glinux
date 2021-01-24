@@ -6,15 +6,16 @@ Make the scripts executable by "cd"-ing into the directory containing the script
 
 ## Git-clone this project, and run the following files in terminal (e.g.: ./init-cleanup.sh) and in the correct order & don't forget to make the scripts executable:
 
-1. /setup/update.sh
-2. /install/programs.sh
-3. /install/install-desktop.sh
+1. /setup/debian-init.sh
+2. /setup/debian-stabletotesting-init.sh
+3. /install/programs.sh
+4. /install/install-desktop.sh
 
 After rebooting, you should see the normal Ubuntu Desktop. Continue with executing the remaining scripts with Nautilus/CLI:
 
-4. /install/post-desktop.sh
-5. /install/drivers.sh
-6. /install/custom-kernel.sh
+5. /install/post-desktop.sh
+6. /install/drivers.sh
+7. /install/custom-kernel.sh
 
 **Disclaimer: Execute the right scripts for the right edition. If you start a script, that is meant for "Broadcaster", you will install "unnecessary" programs, which adds to the finished ISO-file size**
 
