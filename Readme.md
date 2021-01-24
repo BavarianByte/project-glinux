@@ -2,7 +2,7 @@ This is the repository that houses all necessary scripts to install and set up t
 
 Only use this collection of scripts with **Debian Testing netinstall** (https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/), because the scripts use snapd & apt-get (snapd will be installed in programs.sh)
 
-Make the scripts executable by "cd"-ing into the directory containing the scripts, make yourself root with "sudo sh". To make all scripts executable, type: "sudo chmod 755 *.sh". And now, execute them by issuing "bash script-name.sh"
+Make the scripts executable by "cd"-ing into the directory containing the scripts, make yourself root with "sudo sh". To make all scripts executable, type: "chmod 755 *.sh". And now, execute them by issuing "bash script-name.sh"
 
 ## Git-clone this project, and run the following files in terminal (e.g.: ./init-cleanup.sh) and in the correct order & don't forget to make the scripts executable:
 
