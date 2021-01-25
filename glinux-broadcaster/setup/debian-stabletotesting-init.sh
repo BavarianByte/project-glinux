@@ -15,8 +15,10 @@ sudo apt update
 
 sudo apt upgrade -y
 
-sudo systemctl reboot
+echo -e "\nSuccessfully updated Debian Stable to Debian Testing. Now rebooting."
 
-echo -e "\nSuccessfully updated Debian Stable to Debian Testing"
+sleep 5
+
+sudo systemctl reboot
 
 exit 0
