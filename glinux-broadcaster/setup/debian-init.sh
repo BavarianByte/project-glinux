@@ -15,7 +15,7 @@ apt-get install sudo -y
 
 # now, add $USER to sudoers group
 
-usermod -aG sudo $USER
+usermod -aG sudo $(USER)
 
 exit
 

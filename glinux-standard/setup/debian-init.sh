@@ -17,6 +17,4 @@ apt-get install sudo -y
 
 usermod -aG sudo $USER
 
-exit
-
 systemctl reboot

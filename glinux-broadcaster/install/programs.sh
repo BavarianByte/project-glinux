@@ -14,11 +14,13 @@ sudo dpkg --add-architecture i386
 
 sudo apt update
 
-# install small programs
+# install small/internal/system-relevant programs
 
 sudo apt-get install gnome-session gnome-terminal tasksel -y
 
 sudo apt-get install snapd -y
+
+sudo apt-get install libfaudio0 -y
 
 # install programs necessary for glinux-maker
 
@@ -47,5 +49,15 @@ sudo apt update
 sudo apt install lutris
 
 echo -e "\nInstalled: Lutris"
+
+wget -nc https://dl.winehq.org/wine-builds/winehq.key
+sudo apt-key add winehq.key
+
+echo "deb https://dl.winehq.org/wine-builds/debian/ bullseye main" | sudo tee /etc/apt/sources.list.d/winehq.list
+sudo apt update
+
+sudo apt install --install-recommends winehq-stable
+
+echo -e "\nInstalled: Wine"
 
 exit 0
