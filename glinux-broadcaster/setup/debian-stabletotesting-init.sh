@@ -15,7 +15,7 @@ sudo apt update
 
 sudo apt upgrade -y
 
-echo -e "\nSuccessfully updated Debian Stable to Debian Testing. Now rebooting."
+echo "\nSuccessfully updated Debian Stable to Debian Testing. Now rebooting."
 
 sleep 5
 

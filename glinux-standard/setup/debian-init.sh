@@ -7,14 +7,13 @@
 # Copyright Raphipod (C) 2021 - Project GLinux
 #----------------------------------------------------------------
 
+# Execute this script with root!
 # As Debian doesn't have sudo by default, we have to install it.
-
-su 
 
 apt-get install sudo -y
 
 # now, add $USER to sudoers group
 
-usermod -aG sudo $USER
+/sbin/usermod -aG sudo $USER
 
 systemctl reboot

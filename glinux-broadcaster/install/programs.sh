@@ -30,25 +30,25 @@ sudo apt install squashfs-tools && genisoimage -y
 
 sudo apt-get install chromium-browser -y
 
-echo -e "\nInstalled: Chromium"
+echo "\nInstalled: Chromium"
 
 sudo apt-get install obs-studio
 
-echo -e "\nInstalled: OBS-Studio"
+echo "\nInstalled: OBS-Studio"
 
 sudo snap install shotcut --classic
 
-echo -e "\nInstalled: Shotcut"
+echo "\nInstalled: Shotcut"
 
 sudo apt install steam-installer
 
-echo -e "\nInstalled: Steam-Installer; WARNING: This is just the installer, Steam isn't really installed yet."
+echo "\nInstalled: Steam-Installer; WARNING: This is just the installer, Steam isn't really installed yet."
 
 sudo add-apt-repository ppa:lutris-team/lutris
 sudo apt update
 sudo apt install lutris
 
-echo -e "\nInstalled: Lutris"
+echo "\nInstalled: Lutris"
 
 wget -nc https://dl.winehq.org/wine-builds/winehq.key
 sudo apt-key add winehq.key
@@ -56,8 +56,10 @@ sudo apt-key add winehq.key
 echo "deb https://dl.winehq.org/wine-builds/debian/ bullseye main" | sudo tee /etc/apt/sources.list.d/winehq.list
 sudo apt update
 
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 76F1A20FF987672F
+
 sudo apt install --install-recommends winehq-stable
 
-echo -e "\nInstalled: Wine"
+echo "\nInstalled: Wine"
 
 exit 0

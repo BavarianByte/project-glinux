@@ -48,8 +48,10 @@ sudo apt-key add winehq.key
 echo "deb https://dl.winehq.org/wine-builds/debian/ bullseye main" | sudo tee /etc/apt/sources.list.d/winehq.list
 sudo apt update
 
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 76F1A20FF987672F
+
 sudo apt install --install-recommends winehq-stable
 
-echo -e "\nInstalled: Wine"
+echo -e "\nInstalled: Wine" # rework Wine installation
 
 exit 0
