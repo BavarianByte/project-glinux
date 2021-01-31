@@ -1,6 +1,6 @@
-This is the repository that houses all necessary scripts to install and set up the Linux distribution "GLinux" - a Gaming-focused Linux distribution based on Ubuntu.
+This is the repository that houses all necessary scripts to install and set up the Linux distribution "GLinux" - a Gaming-focused Linux distribution based on Debian.
 
-Only use this collection of scripts with **Debian Testing netinstall** (https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/), because the scripts use snapd & apt-get (snapd will be installed in programs.sh)
+Only use this collection of scripts with **Debian Stable netinstall** (https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.7.0-amd64-netinst.iso), because the scripts use apt-get (snapd will be installed in programs.sh), and utilize Debian-specific commands only.
 
 Make the scripts executable by "cd"-ing into the directory containing the scripts, make yourself root with "sudo sh". To make all scripts executable, type: "chmod 755 *.sh". And now, execute them by issuing "bash script-name.sh"
 
