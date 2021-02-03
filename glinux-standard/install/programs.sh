@@ -32,15 +32,17 @@ sudo apt-get install chromium-browser -y
 
 echo -e "\nInstalled: Chromium"
 
-sudo apt install steam-installer
+sudo apt install steam
 
-echo -e "\nInstalled: Steam-Installer; WARNING: This is just the installer, Steam isn't really installed yet."
+echo -e "\nInstalled: Steam-Installer"
 
 sudo add-apt-repository ppa:lutris-team/lutris
 sudo apt update
 sudo apt install lutris
 
 echo -e "\nInstalled: Lutris"
+
+# rework Wine installation
 
 wget -nc https://dl.winehq.org/wine-builds/winehq.key
 sudo apt-key add winehq.key

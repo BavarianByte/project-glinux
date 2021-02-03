@@ -40,15 +40,17 @@ sudo snap install shotcut --classic
 
 echo "\nInstalled: Shotcut"
 
-sudo apt install steam-installer
+sudo apt install steam
 
-echo "\nInstalled: Steam-Installer; WARNING: This is just the installer, Steam isn't really installed yet."
+echo "\nInstalled: Steam"
 
 sudo add-apt-repository ppa:lutris-team/lutris
 sudo apt update
 sudo apt install lutris
 
 echo "\nInstalled: Lutris"
+
+# rework Wine installation
 
 wget -nc https://dl.winehq.org/wine-builds/winehq.key
 sudo apt-key add winehq.key
@@ -60,6 +62,6 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 76F1A20FF987672F
 
 sudo apt install --install-recommends winehq-stable
 
-echo "\nInstalled: Wine"
+echo "\nInstalled: Wine" # rework Wine installation
 
 exit 0
