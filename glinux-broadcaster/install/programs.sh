@@ -22,13 +22,17 @@ sudo apt-get install snapd -y
 
 sudo apt-get install libfaudio0 -y
 
+sudo apt-get install nautilus -y
+
+sudo apt-get install wget -y
+
 # install programs necessary for glinux-maker
 
 sudo apt install squashfs-tools && genisoimage -y
 
 # install programs used in GLinux-Broadcaster
 
-sudo apt-get install chromium-browser -y
+sudo snap install chromium
 
 echo "\nInstalled: Chromium"
 
