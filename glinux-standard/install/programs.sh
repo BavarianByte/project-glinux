@@ -42,18 +42,16 @@ sudo apt install lutris
 
 echo -e "\nInstalled: Lutris"
 
-# rework Wine installation
-
 wget -nc https://dl.winehq.org/wine-builds/winehq.key
 sudo apt-key add winehq.key
 
-echo "deb https://dl.winehq.org/wine-builds/debian/ bullseye main" | sudo tee /etc/apt/sources.list.d/winehq.list
+echo "deb https://dl.winehq.org/wine-builds/debian/ sid main" | sudo tee /etc/apt/sources.list.d/winehq.list
 sudo apt update
 
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 76F1A20FF987672F
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 818A435C5FCBF54A
 
 sudo apt install --install-recommends winehq-stable
 
-echo -e "\nInstalled: Wine" # rework Wine installation
+echo -e "\nInstalled: Wine" 
 
 exit 0
