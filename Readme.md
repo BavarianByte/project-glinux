@@ -16,6 +16,9 @@ After rebooting, you should see the normal Ubuntu Desktop. Continue with executi
 5. /install/drivers.sh
 6. /install/custom-kernel.sh
 
+When finished, the last folder you may work with is 'post-install', which inhabits useful scripts for already existing installs.
+**Warning: If you want to distribute a custom version of GLinux, do not use any scripts in this folder but 'update.sh'!**
+
 **Disclaimer: Execute the right scripts for the right edition. If you start a script, that is meant for "Broadcaster", you will install "unnecessary" programs, which adds to the finished ISO-file size**
 
 ## Versioning declaration & Usage:
