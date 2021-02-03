@@ -11,6 +11,10 @@
 
 sudo sed -i 's/buster/testing/g' /etc/apt/sources.list
 
+# Security updates are only maintained on "stable"-branch, so we're commenting out these lines.
+
+sudo sed -e '/debian-security/ s/^#*/#/g' -i /etc/apt/sources.list
+
 sudo apt update
 
 sudo apt upgrade -y
