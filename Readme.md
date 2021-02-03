@@ -4,7 +4,7 @@ Only use this collection of scripts with **Debian Stable netinstall** (https://c
 
 Make the scripts executable by "cd"-ing into the directory containing the scripts, make yourself root with "sudo sh". To make all scripts executable, type: "chmod 777 *.sh". And now, execute them by issuing "bash script-name.sh"
 
-## Git-clone this project, and run the following files in terminal (e.g.: ./init-cleanup.sh) and in the correct order & don't forget to make the scripts executable:
+## Git-clone this project to /tmp, and run the following files in terminal (e.g.: ./init-cleanup.sh) and in the correct order & don't forget to make the scripts executable:
 
 1. /setup/debian-init.sh
 2. /setup/debian-stabletotesting-init.sh
