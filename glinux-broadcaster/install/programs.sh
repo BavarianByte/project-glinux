@@ -34,25 +34,25 @@ sudo apt install squashfs-tools && genisoimage -y
 
 sudo snap install chromium
 
-echo "\nInstalled: Chromium"
+echo -e "\nInstalled: Chromium"
 
 sudo apt-get install obs-studio
 
-echo "\nInstalled: OBS-Studio"
+echo -e "\nInstalled: OBS-Studio"
 
 sudo snap install shotcut --classic
 
-echo "\nInstalled: Shotcut"
+echo -e "\nInstalled: Shotcut"
 
 sudo apt install steam
 
-echo "\nInstalled: Steam"
+echo -e "\nInstalled: Steam"
 
 sudo add-apt-repository ppa:lutris-team/lutris
 sudo apt update
 sudo apt install lutris
 
-echo "\nInstalled: Lutris"
+echo -e "\nInstalled: Lutris"
 
 wget -nc https://dl.winehq.org/wine-builds/winehq.key
 sudo apt-key add winehq.key

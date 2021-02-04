@@ -10,13 +10,13 @@
 
 sudo apt update
 
-echo "\nEverything is updated. Proceeding with installing the DE."
+echo -e "\nEverything is updated. Proceeding with installing the DE."
 
 # install Desktop Environment
 
 sudo tasksel install ubuntu-desktop-minimal
 
-echo "\nDesktop is installed. Proceeding with reboot"
+echo -e "\nDesktop is installed. Proceeding with reboot"
 
 reboot
 

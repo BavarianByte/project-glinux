@@ -8,6 +8,10 @@
 
 sudo apt-get update
 
-sudo apt-get install nvidia-drivers-460 -
+sudo apt-get install nvidia-drivers-460 -y
+
+sleep 2
+
+echo -e "\nInstalled NVIDIA-Drivers."
 
 exit 0
