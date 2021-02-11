@@ -16,13 +16,9 @@ sudo apt update
 
 # install small/internal/system-relevant programs
 
-sudo apt-get install gnome-session gnome-terminal tasksel -y
-
 sudo apt-get install snapd -y
 
 sudo apt-get install libfaudio0 -y
-
-sudo apt-get install nautilus -y
 
 sudo apt-get install wget -y
 
