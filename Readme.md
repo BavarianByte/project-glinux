@@ -11,7 +11,7 @@ Make the scripts executable by "cd"-ing into the directory containing the script
 3. /install/programs.sh
 4. /install/install-desktop.sh
 
-After rebooting, you should see the normal Ubuntu Desktop. Continue with executing the remaining scripts with Nautilus/CLI:
+After rebooting, you should see the normal KDE Plasma Desktop. Continue with executing the remaining scripts with Dolphin/CLI:
 
 5. /install/drivers.sh
 6. /install/custom-kernel.sh
