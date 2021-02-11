@@ -14,9 +14,9 @@ echo -e "\nEverything is updated. Proceeding with installing the DE."
 
 # install Desktop Environment
 
-sudo tasksel install ubuntu-desktop-minimal
+sudo apt-get install kde-plasma-desktop
 
-echo -e "\nDesktop is installed. Proceeding with reboot"
+echo -e "\nKDE Plasma is installed. Proceeding with reboot"
 
 systemctl reboot
 
