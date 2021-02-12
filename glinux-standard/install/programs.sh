@@ -39,6 +39,10 @@ echo -e "\nInstalled: Steam"
 wget https://github.com/flavioislima/HeroicGamesLauncher/releases/download/v1.4.0/heroic_1.4.0_amd64.deb
 sudo dpkg -i heroic_1.4.0_amd64.deb
 
+sleep 2
+
+sudo rm heroic_1.4.0_amd64.deb
+
 echo -e "\Installed: Heroic Games Launcher"
 
 sudo add-apt-repository ppa:lutris-team/lutris
