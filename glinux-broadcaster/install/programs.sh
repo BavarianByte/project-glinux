@@ -22,6 +22,10 @@ sudo apt-get install libfaudio0 -y
 
 sudo apt-get install wget -y
 
+sudo apt-get install curl && libcurl4 -y
+
+sudo apt-get install gawk && libsigsegv2 -y
+
 # install programs necessary for glinux-maker
 
 sudo apt install squashfs-tools && genisoimage -y
@@ -40,11 +44,15 @@ sudo snap install shotcut --classic
 
 echo -e "\nInstalled: Shotcut"
 
+echo "deb http://deb.debian.org/debian/ buster main contrib non-free" | sudo tee /etc/apt/sources.list
+
+sudo apt install mesa-vulkan-drivers libglx-mesa0:i386 mesa-vulkan-drivers:i386 libgl1-mesa-dri:i386
+
 sudo apt install steam
 
 echo -e "\nInstalled: Steam"
 
-wget https://github.com/flavioislima/HeroicGamesLauncher/releases/download/v1.4.0/heroic_1.4.0_amd64.deb
+sudo wget https://github.com/flavioislima/HeroicGamesLauncher/releases/download/v1.4.0/heroic_1.4.0_amd64.deb
 sudo dpkg -i heroic_1.4.0_amd64.deb
 
 sleep 2
@@ -53,7 +61,11 @@ sudo rm heroic_1.4.0_amd64.deb
 
 echo -e "\Installed: Heroic Games Launcher"
 
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 37B90EDD4E3EFAE4
 sudo add-apt-repository ppa:lutris-team/lutris
+
+sleep 2
+
 sudo apt update
 sudo apt install lutris
 
@@ -67,6 +79,9 @@ sudo apt update
 
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 818A435C5FCBF54A
 
+sleep 2
+
+sudo apt-get update
 sudo apt install --install-recommends winehq-stable
 
 echo -e "\nInstalled: Wine" 
