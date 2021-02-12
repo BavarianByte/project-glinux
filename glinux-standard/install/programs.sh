@@ -51,13 +51,12 @@ sudo rm heroic_1.4.0_amd64.deb
 
 echo -e "\Installed: Heroic Games Launcher"
 
-sudo add-apt-repository ppa:lutris-team/lutris
+echo "deb http://download.opensuse.org/repositories/home:/strycore/Debian_10/ ./" | sudo tee /etc/apt/sources.list.d/lutris.list
 
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 37B90EDD4E3EFAE4
-
-sleep 2
+wget -q https://download.opensuse.org/repositories/home:/strycore/Debian_10/Release.key -O- | sudo apt-key add -
 
 sudo apt update
+
 sudo apt install lutris
 
 echo -e "\nInstalled: Lutris"
