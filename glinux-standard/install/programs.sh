@@ -28,7 +28,7 @@ sudo apt-get install gawk && libsigsegv2 -y
 
 # install programs necessary for glinux-maker
 
-sudo apt install squashfs-tools && genisoimage -y
+sudo apt install -y squashfs-tools && genisoimage
 
 # install programs used in GLinux
 
@@ -36,9 +36,7 @@ sudo snap install chromium
 
 echo -e "\nInstalled: Chromium"
 
-echo "deb http://deb.debian.org/debian/ buster main contrib non-free" | sudo tee /etc/apt/sources.list
-
-sudo apt install mesa-vulkan-drivers libglx-mesa0:i386 mesa-vulkan-drivers:i386 libgl1-mesa-dri:i386
+echo "deb http://deb.debian.org/debian/ buster main contrib non-free" | sudo tee -a /etc/apt/sources.list
 
 sudo apt install steam
 
