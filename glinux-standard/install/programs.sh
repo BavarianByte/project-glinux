@@ -28,7 +28,9 @@ sudo apt-get install gawk && libsigsegv2 -y
 
 # install programs necessary for glinux-maker
 
-sudo apt install -y squashfs-tools && genisoimage
+sudo apt install -y squashfs-tools
+
+sudo apt install -y genisoimage
 
 # install programs used in GLinux
 
@@ -57,7 +59,7 @@ wget -q https://download.opensuse.org/repositories/home:/strycore/Debian_10/Rele
 
 sudo apt update
 
-sudo apt install lutris
+sudo apt install lutris -y
 
 echo -e "\nInstalled: Lutris"
 

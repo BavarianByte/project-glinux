@@ -14,6 +14,8 @@ sudo apt install libgl1-mesa-dri:i386 mesa-vulkan-drivers mesa-vulkan-drivers:i3
 
 echo -e "\nInstalled: AMD-Graphics"
 
+sudo apt autoremove
+
 # I can't pack proprietary NVIDIA-Drivers due to obvious reasons.
 
 exit 0
