@@ -18,4 +18,8 @@ sudo apt --purge autoremove
 
 sudo apt-get clean
 
+# Remove "orphaned" packages
+
+sudo deborphan | xargs sudo apt-get -y remove --purge
+
 exit 0
