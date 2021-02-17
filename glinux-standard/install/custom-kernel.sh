@@ -14,7 +14,7 @@ wget -qO - https://dl.xanmod.org/gpg.key | sudo apt-key add -
 
 sudo apt update
 
-sudo apt install linux-xanmod -y
+sudo apt install linux-xanmod-edge -y
 
 echo -e "\nInstalled custom kernel, rebooting..."
 
