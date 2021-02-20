@@ -15,10 +15,6 @@ sudo sed -i 's/buster/testing/g' /etc/apt/sources.list
 
 sudo sed -e '/debian-security/ s/^#*/#/g' -i /etc/apt/sources.list
 
-# enable 32-bit libraries (needed for Steam and 32-bit drivers.)
-
-sudo dpkg --add-architecture i386
-
 sudo apt update
 
 sudo apt upgrade -y
