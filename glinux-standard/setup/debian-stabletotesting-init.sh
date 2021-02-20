@@ -15,12 +15,18 @@ sudo sed -i 's/buster/testing/g' /etc/apt/sources.list
 
 sudo sed -e '/debian-security/ s/^#*/#/g' -i /etc/apt/sources.list
 
+# enable 32-bit libraries (needed for Steam and 32-bit drivers.)
+
+sudo dpkg --add-architecture i386
+
 sudo apt update
 
 sudo apt upgrade -y
 
-sudo systemctl reboot
+echo -e "\nSuccessfully updated Debian Stable to Debian Testing. Now rebooting."
 
-echo -e "\nSuccessfully updated Debian Stable to Debian Testing"
+sleep 5
+
+sudo systemctl reboot
 
 exit 0

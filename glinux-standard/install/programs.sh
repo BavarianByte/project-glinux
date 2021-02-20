@@ -6,10 +6,6 @@
 # Copyright Raphipod (C) 2021 - Project GLinux
 #----------------------------------------------------------------
 
-# enable 32-bit libraries (needed for Steam and 32-bit drivers.)
-
-sudo dpkg --add-architecture i386
-
 # make sure all pre-installed programs are up-to-date
 
 sudo apt update
@@ -22,9 +18,9 @@ sudo apt-get install libfaudio0 -y
 
 sudo apt-get install wget -y
 
-sudo apt-get install curl && libcurl4 -y
+sudo apt-get install -y curl && libcurl4
 
-sudo apt-get install gawk && libsigsegv2 -y
+sudo apt-get install -y gawk && libsigsegv2
 
 # install programs necessary for glinux-maker
 
@@ -44,12 +40,12 @@ sudo apt install steam
 
 echo -e "\nInstalled: Steam"
 
-sudo wget https://github.com/flavioislima/HeroicGamesLauncher/releases/download/v1.4.0/heroic_1.4.0_amd64.deb
-sudo dpkg -i heroic_1.4.0_amd64.deb
+sudo wget https://github.com/flavioislima/HeroicGamesLauncher/releases/download/v1.5.3/heroic_1.5.3_amd64.deb
+sudo dpkg -i heroic_1.5.3_amd64.deb
 
 sleep 2
 
-sudo rm heroic_1.4.0_amd64.deb
+sudo rm heroic_1.5.3_amd64.deb
 
 echo -e "\Installed: Heroic Games Launcher"
 
