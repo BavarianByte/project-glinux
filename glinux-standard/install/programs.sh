@@ -38,9 +38,12 @@ sudo snap install chromium
 
 echo -e "\nInstalled: Chromium"
 
-echo "deb http://deb.debian.org/debian/ buster main contrib non-free" | sudo tee -a /etc/apt/sources.list
+sudo wget https://cdn.akamai.steamstatic.com/client/installer/steam.deb
+sudo dpkg -i steam_latest.deb
 
-sudo apt install steam
+sleep 2
+
+sudo rm steam_latest.deb
 
 echo -e "\nInstalled: Steam"
 
