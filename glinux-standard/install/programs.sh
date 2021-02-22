@@ -36,7 +36,7 @@ sudo apt install -y genisoimage
 
 sudo snap install chromium
 
-echo -e "\nInstalled: Chromium"
+echo -e "\nInstalled: Chromium\n"
 
 sudo wget https://cdn.akamai.steamstatic.com/client/installer/steam.deb
 sudo dpkg -i steam_latest.deb
@@ -45,7 +45,7 @@ sleep 2
 
 sudo rm steam_latest.deb
 
-echo -e "\nInstalled: Steam"
+echo -e "\nInstalled: Steam\n"
 
 sudo wget https://github.com/flavioislima/HeroicGamesLauncher/releases/download/v1.5.3/heroic_1.5.3_amd64.deb
 sudo dpkg -i heroic_1.5.3_amd64.deb
@@ -54,7 +54,7 @@ sleep 2
 
 sudo rm heroic_1.5.3_amd64.deb
 
-echo -e "\Installed: Heroic Games Launcher"
+echo -e "\Installed: Heroic Games Launcher\n"
 
 echo "deb http://download.opensuse.org/repositories/home:/strycore/Debian_10/ ./" | sudo tee /etc/apt/sources.list.d/lutris.list
 
@@ -64,7 +64,7 @@ sudo apt update
 
 sudo apt install lutris -y
 
-echo -e "\nInstalled: Lutris"
+echo -e "\nInstalled: Lutris\n"
 
 wget -nc https://dl.winehq.org/wine-builds/winehq.key
 sudo apt-key add winehq.key
@@ -79,6 +79,6 @@ sleep 2
 sudo apt-get update
 sudo apt install --install-recommends winehq-stable
 
-echo -e "\nInstalled: Wine" 
+echo -e "\nInstalled: Wine\n" 
 
 exit 0

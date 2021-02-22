@@ -10,13 +10,13 @@
 
 sudo apt update
 
-echo -e "\nEverything is updated. Proceeding with installing the DE."
+echo -e "\nEverything is updated. Proceeding with installing the DE.\n"
 
 # install Desktop Environment
 
 sudo apt-get install kde-plasma-desktop
 
-echo -e "\nKDE Plasma is installed. Proceeding with reboot"
+echo -e "\nKDE Plasma is installed. Proceeding with reboot\n"
 
 systemctl reboot
 

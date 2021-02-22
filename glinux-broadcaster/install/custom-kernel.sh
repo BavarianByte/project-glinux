@@ -16,7 +16,7 @@ sudo apt update
 
 sudo apt install linux-xanmod-edge -y
 
-echo -e "\nInstalled custom kernel, rebooting..."
+echo -e "\nInstalled custom kernel, rebooting...\n"
 
 sudo reboot
 
