@@ -39,11 +39,11 @@ sudo snap install chromium
 echo -e "\nInstalled: Chromium\n"
 
 sudo wget https://cdn.akamai.steamstatic.com/client/installer/steam.deb
-sudo dpkg -i steam_latest.deb
+sudo dpkg -i steam.deb
 
 sleep 2
 
-sudo rm steam_latest.deb
+sudo rm steam.deb
 
 echo -e "\nInstalled: Steam\n"
 
