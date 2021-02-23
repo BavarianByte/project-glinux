@@ -47,6 +47,9 @@ sudo snap install shotcut --classic
 echo -e "\nInstalled: Shotcut\n"
 
 sudo wget https://cdn.akamai.steamstatic.com/client/installer/steam.deb
+
+sudo apt --fix-broken install
+
 sudo dpkg -i steam.deb
 
 sleep 2

@@ -48,6 +48,9 @@ sudo rm steam.deb
 echo -e "\nInstalled: Steam\n"
 
 sudo wget https://github.com/flavioislima/HeroicGamesLauncher/releases/download/v1.5.3/heroic_1.5.3_amd64.deb
+
+sudo apt --fix-broken install
+
 sudo dpkg -i heroic_1.5.3_amd64.deb
 
 sleep 2
